@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+    
+}
+.home{
+    
+    width: 100%;
+    
+
+}
+.logo{
+    position: absolute;
+width: 122px;
+height: 52px;
+left: 76px;
+top: 14px;
+
+font-family:Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #18fb5c;
+}
+.wrapper{
+    width: 100%;
+    margin: 0;
+    
+    
+}
+.nav-bar{
+    display: flex;
+    background-color:black;
+    padding:1rem;
+    display:block;
+    
+    
+}
+ul li{
+    margin-left: 100px;
+    
+    
+}
+ul li:hover{
+    position: relative;
+    background-color: rgb(77, 5, 160);
+    border-radius: 15px;
+    transition: all 3s;
+}
+.nav-bar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+    margin-left: 70px;
+}
+.nav-bar li{
+    margin-right: 1rem;
+    line-height: 50px;
+}
+.nav-bar li  a{
+    padding: 10px;
+    
+    text-decoration:none;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+    margin-left: 25px;
+
+}
+.nav-bar form{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.nav-bar input{
+    flex: 2;
+    border-radius:25px;
+    border: 0;
+    height: 30px;
+}
+.nav-bar button{
+    background: #262626;
+    border: 0;
+    color:white;
+    border-radius: 25%;
+    padding: 10px 25px;
+    margin-left: .5rem;
+}
+.home{
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size:cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.home:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.keling{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+}
+.keling1{
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+button:hover{
+    position: relative;
+    background-color: rgb(77, 5, 160);
+    border-radius: 15px;
+    transition: all 3s;
+}
+.quti1{
+    background-color: orangered;
+    width: 300px;
+    height: 300px;
+    
+}
+.quti2{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+.quti3{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+}
+i{
+  display: flex;
+  justify-content: center;  
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.keling2{
+    text-align: center;
+    color: white;
+}
+.keling2 .fa{
+    font-size: 55px;
+    margin-top: 20px;
+}
+.reklama{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 4s;
+    animation-name: anim1;
+    animation-duration: 4s;
+
+}
+.reklama{
+    width: 1000px;
+    height: 300px;
+    
+    transition: 8s;
+    animation-name: anim1;
+    animation-duration: 15s ; 
+    animation-iteration-count: infinite;
+    margin-left: 260px;
+    margin-top: 40px;
+}
+
+@keyframes anim1{
+    0%{
+        background-image: url(https://cdn.pixabay.com/photo/2013/11/03/08/05/cheers-204742__340.jpg);
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size:cover;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
+    }
+    25%{
+        background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662__340.jpg);
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size:cover;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
+    }
+    50%{
+        background-image: url(https://cdn.pixabay.com/photo/2016/11/22/19/15/audience-1850119__340.jpg);
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size:cover;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
+    }
+    75%{
+        background-image: url(https://cdn.pixabay.com/photo/2019/04/04/17/58/hong-kong-4103334__340.jpg);
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size:cover;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
+    }
+    100%{
+        background-image: url(https://cdn.pixabay.com/photo/2018/05/10/11/34/concert-3387324__340.jpg);
+        background-position: center center;
+        background-size: cover;
+        -webkit-background-size:cover;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
+    }
+}
+.matn{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.galereya{
+    display: flex;
+    justify-content: center;
+}
+.galereya1{
+    display: flex;
+    justify-content: center;
+}
+.galereya2{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-left: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+}
+.enjoy{
+    color: white;
+    display: block;
+    
+    
+    font-size:35px ;
+    margin-top: 25px;
+    
+}
+h3{
+   width: 400px;
+   height: auto;
+   margin-left: 35%;
+   background-color: blue;
+   text-align: center;
+}
+.videobg{
+    display: flex;
+    justify-content: center;
+    filter: contrast(3);
+}
+#myvideo:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.keling3{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    animation: infinite 3s linear anim2;
+    text-transform: uppercase;
+}
+@keyframes anim2{
+    0%{
+        color: blue;
+    }
+    25%{
+        color:#18fb5c;
+    }
+    50%{
+        color: rgb(196, 19, 19);
+    }
+    75%{
+        color: rgb(0, 174, 255);
+    }
+    100%{
+        color: rgb(237, 237, 238);
+    }
+}
+
